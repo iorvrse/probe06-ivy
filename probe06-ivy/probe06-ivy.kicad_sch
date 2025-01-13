@@ -9735,7 +9735,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 207.01 62.23 90)
 			(effects
 				(font
@@ -9743,7 +9743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 67.818 90)
 			(effects
 				(font
