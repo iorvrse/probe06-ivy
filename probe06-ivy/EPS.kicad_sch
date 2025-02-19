@@ -5314,7 +5314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ef48ba6-8a29-4a24-bda7-106b131e2bab")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 182.88 153.67 0)
 			(effects
 				(font
@@ -5364,7 +5364,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/9fa331a9-6a87-4974-bb86-bec099ef0d79"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5723,7 +5723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d85ca6e-61f6-42c0-ab4e-9a4e7f2f1174")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 134.62 153.67 0)
 			(effects
 				(font
@@ -5773,7 +5773,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/9fa331a9-6a87-4974-bb86-bec099ef0d79"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)

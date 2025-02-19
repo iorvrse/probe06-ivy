@@ -13,126 +13,6 @@
 		(comment 2 "#DOA_IBU")
 	)
 	(lib_symbols
-		(symbol "+3V0_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V0"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V0\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V0_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V0_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "+3V3_1"
 			(power)
 			(pin_numbers hide)
@@ -3853,6 +3733,12 @@
 		(uuid "02f6bb69-4089-40d8-a403-ffd19f731eb9")
 	)
 	(junction
+		(at 24.13 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b9606e-82f6-4659-9b5e-d79d314aceab")
+	)
+	(junction
 		(at 242.57 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3947,6 +3833,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a060976b-0811-4ea9-8bf5-963b8667fef0")
+	)
+	(junction
+		(at 26.67 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a420634d-ec9a-4450-aff9-2066d9b24ece")
 	)
 	(junction
 		(at 102.87 90.17)
@@ -4210,6 +4102,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 125.73) (xy 24.13 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18fca2fd-8afc-4de7-831a-1204ea604a6e")
+	)
+	(wire
+		(pts
 			(xy 248.92 58.42) (xy 248.92 57.15)
 		)
 		(stroke
@@ -4410,13 +4312,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 135.89) (xy 50.8 135.89)
+			(xy 24.13 135.89) (xy 24.13 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30757dab-7cc6-4d2f-8e8b-882b767f8bdc")
+		(uuid "3163bd74-a279-4b02-9030-b38e04a3286a")
 	)
 	(wire
 		(pts
@@ -4550,6 +4452,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 138.43) (xy 26.67 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dac704-902d-4ef3-bb69-62754034f934")
+	)
+	(wire
+		(pts
 			(xy 214.63 139.7) (xy 214.63 140.97)
 		)
 		(stroke
@@ -4617,6 +4529,16 @@
 			(type default)
 		)
 		(uuid "538a6fc3-4d6f-4b4e-b23c-dbb894340584")
+	)
+	(wire
+		(pts
+			(xy 21.59 127) (xy 21.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53af39c4-1f66-4135-bda1-c3885e602040")
 	)
 	(wire
 		(pts
@@ -5220,6 +5142,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 127) (xy 29.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f2ca7e-63d3-42d6-b18f-9a04b64bee0f")
+	)
+	(wire
+		(pts
 			(xy 74.93 125.73) (xy 64.77 125.73)
 		)
 		(stroke
@@ -5280,6 +5212,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 125.73) (xy 26.67 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47be922-2ddf-4267-88f7-3328719ef43c")
+	)
+	(wire
+		(pts
 			(xy 247.65 87.63) (xy 247.65 90.17)
 		)
 		(stroke
@@ -5327,16 +5269,6 @@
 			(type default)
 		)
 		(uuid "b9eb3d36-6996-476f-975b-bd3a97bb9e30")
-	)
-	(wire
-		(pts
-			(xy 33.02 138.43) (xy 44.45 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad91792-8db5-4426-b2ea-82c8203856e5")
 	)
 	(wire
 		(pts
@@ -5510,6 +5442,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 135.89) (xy 50.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8fc12c1-b26f-40c3-bd65-bcfbc97e6968")
+	)
+	(wire
+		(pts
 			(xy 29.21 54.61) (xy 29.21 55.88)
 		)
 		(stroke
@@ -5527,6 +5469,16 @@
 			(type default)
 		)
 		(uuid "dbe1725b-b752-4224-bdd5-f2cf6dcef58d")
+	)
+	(wire
+		(pts
+			(xy 26.67 138.43) (xy 44.45 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29a7187-25ad-4287-bae0-d8bec3d83f84")
 	)
 	(wire
 		(pts
@@ -6150,6 +6102,28 @@
 			)
 		)
 	)
+	(global_label "VBAT"
+		(shape input)
+		(at 50.8 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43c19993-9c43-45c6-a9b3-269ec06f04db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM3"
 		(shape input)
 		(at 130.81 182.88 180)
@@ -6196,7 +6170,7 @@
 	)
 	(global_label "SDA3"
 		(shape bidirectional)
-		(at 33.02 138.43 180)
+		(at 26.67 139.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6206,7 +6180,7 @@
 		)
 		(uuid "5cab8318-6ae9-4464-b588-0cef01bf9d5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.1459 138.43 0)
+			(at 26.67 148.5741 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6478,7 @@
 	)
 	(global_label "SCL3"
 		(shape bidirectional)
-		(at 33.02 135.89 180)
+		(at 24.13 139.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6514,7 +6488,7 @@
 		)
 		(uuid "dcb2b6d8-27ff-45d5-968d-ff1cdb78222b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.2064 135.89 0)
+			(at 24.13 148.5136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "000725af-71b9-4588-8b90-889d8303cc7e")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR073"
 			(at 146.05 139.7 0)
 			(effects
 				(font
@@ -6629,7 +6603,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR071")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6721,7 +6695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "017136df-bd76-45f5-b2e1-f6ebd8903ed4")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR090"
 			(at 55.88 181.61 0)
 			(effects
 				(font
@@ -6771,7 +6745,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR088")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6788,7 +6762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a28352-7b6a-40b6-b03f-c01cf0378bc2")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR072"
 			(at 118.11 139.7 0)
 			(effects
 				(font
@@ -6838,7 +6812,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR070")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7060,7 +7034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17e6baf8-45f7-4984-9a52-a5844dc4b412")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR087"
 			(at 66.04 179.07 0)
 			(effects
 				(font
@@ -7111,7 +7085,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR085")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7282,7 +7256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bc6009e-df6b-419c-8f71-c65d545c4b1f")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR091"
 			(at 76.2 181.61 0)
 			(effects
 				(font
@@ -7332,7 +7306,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR089")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -7486,7 +7460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2977cb4c-cfa2-4b5b-b0fa-87445881f9e5")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR083"
 			(at 104.14 180.34 0)
 			(effects
 				(font
@@ -7536,7 +7510,7 @@
 		(instances
 			(project ""
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR081")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -7553,7 +7527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b80a747-cff7-4f94-8f99-5af8796210d5")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR078"
 			(at 146.05 152.4 0)
 			(effects
 				(font
@@ -7603,7 +7577,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -7620,7 +7594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f91441c-7cd4-4d9a-a1f9-616c5b453121")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR079"
 			(at 265.43 153.67 0)
 			(effects
 				(font
@@ -7670,7 +7644,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR077")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -7832,7 +7806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3daf8edc-4515-41fe-a32f-82c772887630")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR075"
 			(at 181.61 139.7 0)
 			(effects
 				(font
@@ -7883,7 +7857,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR073")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8024,6 +7998,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 24.13 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "413b0272-6eab-4371-b7ce-33121604f5a9")
+		(property "Reference" "BMP280"
+			(at 33.274 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "xx"
+			(at 35.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 24.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52350237-2b6c-4d23-bcfa-fd8eece539f4")
+		)
+		(pin "2"
+			(uuid "06a3fa2f-c743-483c-8ecd-3f56953616d0")
+		)
+		(pin "3"
+			(uuid "1243b977-c23f-4e99-8eae-7565ba594304")
+		)
+		(pin "4"
+			(uuid "6ca30e83-8ab8-4d13-a690-d5cb93f0d281")
+		)
+		(instances
+			(project "probe06-ivy"
+				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
+					(reference "BMP280")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
 		(at 74.93 124.46 0)
@@ -8101,7 +8151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "423e5138-d5a9-41a4-8945-d4c9a1d7b87f")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR082"
 			(at 64.77 160.02 0)
 			(effects
 				(font
@@ -8151,7 +8201,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR080")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -8361,73 +8411,6 @@
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3V0_1")
-		(lib_id "power:+3V0")
-		(at 50.8 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c80fd6e-c4d4-459b-9da1-71213c69d882")
-		(property "Reference" "#PWR050"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V0"
-			(at 50.8 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 50.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22911c37-ac0d-414d-a288-d081e4b95015")
-		)
-		(instances
-			(project ""
-				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8655,7 +8638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "589b44c2-ee29-466d-a175-c1eb4fa89672")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR086"
 			(at 45.72 179.07 0)
 			(effects
 				(font
@@ -8706,7 +8689,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR084")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -8960,6 +8943,72 @@
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
 					(reference "SD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 21.59 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d81c55a-9118-43a9-9591-a89b8f5bc853")
+		(property "Reference" "#PWR068"
+			(at 21.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 20.828 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 21.59 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28533113-fbab-47d7-9858-ff09c56dfca4")
+		)
+		(instances
+			(project "probe06-ivy"
+				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -9469,7 +9518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "709a8694-7f2c-4d19-8e19-f67300ae4eb3")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR089"
 			(at 35.56 181.61 0)
 			(effects
 				(font
@@ -9519,7 +9568,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR087")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -9612,7 +9661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b327e15-07e6-48db-b150-068dd6fae703")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR070"
 			(at 214.63 132.08 0)
 			(effects
 				(font
@@ -9662,7 +9711,74 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR068")
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 29.21 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b90e87a-243a-4ec2-ae36-084ced349c30")
+		(property "Reference" "#PWR069"
+			(at 29.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06fd2028-72a8-43ef-8c16-3e8e3fd31139")
+		)
+		(instances
+			(project "probe06-ivy"
+				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9679,7 +9795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c1efb5f-c02e-4fd1-be48-f77560a92303")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR071"
 			(at 265.43 137.16 0)
 			(effects
 				(font
@@ -9729,7 +9845,7 @@
 		(instances
 			(project ""
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR069")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -9746,7 +9862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81390076-afff-4c39-a576-71202be9f780")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR076"
 			(at 85.09 148.59 0)
 			(effects
 				(font
@@ -9796,7 +9912,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR074")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -9882,7 +9998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8519a15c-a9c2-45a2-9d7d-7dd2cd244d3e")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR081"
 			(at 50.8 160.02 0)
 			(effects
 				(font
@@ -9932,7 +10048,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR079")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -10152,7 +10268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a61346d-869e-4a03-b4fa-c26bb09eff4a")
-		(property "Reference" "BNO1"
+		(property "Reference" "BNO2"
 			(at 120.65 148.844 0)
 			(effects
 				(font
@@ -10213,7 +10329,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "BNO1")
+					(reference "BNO2")
 					(unit 1)
 				)
 			)
@@ -10365,7 +10481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d20e4fb-a5cc-43c4-9b1f-eecab8fbd237")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR077"
 			(at 106.68 148.59 0)
 			(effects
 				(font
@@ -10415,7 +10531,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR075")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -10569,7 +10685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4640842-0eff-4edd-8d2a-03f70780f3a5")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR074"
 			(at 171.45 137.16 0)
 			(effects
 				(font
@@ -10620,7 +10736,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR072")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -10840,7 +10956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b23b325d-1bec-40a0-a0d5-72fad1375212")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR088"
 			(at 132.08 180.34 0)
 			(effects
 				(font
@@ -10890,7 +11006,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR086")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -10907,7 +11023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be48f380-2ec9-4671-9856-2b5f9aeb4ff7")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR092"
 			(at 104.14 193.04 0)
 			(effects
 				(font
@@ -10957,7 +11073,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR090")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -11112,7 +11228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6bbe13a-97a4-43fa-a45b-43f83ebd9394")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR085"
 			(at 25.4 179.07 0)
 			(effects
 				(font
@@ -11163,7 +11279,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR083")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -11180,7 +11296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6d461f0-690e-47c1-ac3c-daa42769efe6")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR080"
 			(at 214.63 156.21 0)
 			(effects
 				(font
@@ -11230,7 +11346,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR078")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -12174,7 +12290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6ba0a90-d47c-416a-a60e-35b88151f71f")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR084"
 			(at 121.92 177.8 0)
 			(effects
 				(font
@@ -12224,7 +12340,7 @@
 		(instances
 			(project "probe06-ivy"
 				(path "/8ec4aa67-98d5-4482-bf96-6c1e71ad8a74/eceef58c-8170-45e6-b9eb-eb38a99a45f6"
-					(reference "#PWR082")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
